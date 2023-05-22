@@ -1,4 +1,8 @@
-require("core.options")
 require("core.keymaps")
-require("core.plugins")
-require("core.plugin_config")
+require("core.settings")
+require("core.plugin")
+
+require("plugins.nvim-tree")
+require("plugins.telescope")
+require("plugins.treesitter")
+
